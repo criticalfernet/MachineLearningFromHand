@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 from Model import MultiLayerPerceptron
 
-data = pd.read_csv('data/fashion.csv').head(5000)
+data = pd.read_csv('data/mnist-demo.csv').head(5000)
 
 train_y = data["label"].to_numpy()
 train_x = data.drop(columns=["label"]).to_numpy()

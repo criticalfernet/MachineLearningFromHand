@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 from Logistic import LogisticModel
 
-data = pd.read_csv('iris.csv')
+data = pd.read_csv('data/iris.csv')
 
 x_axis = "petal_length"
 y_axis = "petal_width"

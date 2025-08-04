@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 from Logistic import LogisticModel
 
-data = pd.read_csv('mnist-demo.csv').head(1000)
+data = pd.read_csv('data/mnist-demo.csv').head(1000)
 
 x_train = data.drop(columns=["label"]).to_numpy()
 y_train = data["label"].to_numpy().reshape((-1, 1))

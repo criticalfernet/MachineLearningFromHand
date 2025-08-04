@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 from Logistic import LogisticModel
 
-data = pd.read_csv('microchips.csv')
+data = pd.read_csv('data/microchips.csv')
 
 x_axis = 'param_1'
 y_axis = 'param_2'

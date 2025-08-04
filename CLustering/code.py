@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from Kmeans import KmeansModel
 
-data = pd.read_csv('iris.csv')
+data = pd.read_csv('data/iris.csv')
 num_examples = data.shape[0]
 x_axis = 'petal_length'
 y_axis = 'petal_width'
